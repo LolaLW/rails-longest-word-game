@@ -1,0 +1,5 @@
+<form action="score" method="post" data-turbo="false">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="word">
+  <input type="submit" class="btn btn-info" value="Play">
+</form>
